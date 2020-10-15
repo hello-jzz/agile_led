@@ -401,4 +401,4 @@ static int agile_led_init(void)
     is_initialized = 1;
     return RT_EOK;
 }
-INIT_APP_EXPORT(agile_led_init);
+INIT_COMPONENT_EXPORT(agile_led_init);
